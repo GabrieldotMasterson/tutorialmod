@@ -1,3 +1,14 @@
+--[[
+  __                .__          
+_/  |_  ____   ____ |  |   ______
+\   __\/  _ \ /  _ \|  |  /  ___/
+ |  | (  <_> |  <_> )  |__\___ \ 
+ |__|  \____/ \____/|____/____  >
+                              \/ 
+                              
+--]]
+----todo: armaduras
+
 minetest.register_tool("tutorialmod:machado_gaburita", {
     description = "machado gaburita",
     inventory_image = "machado_gaburita.png",

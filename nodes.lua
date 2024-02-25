@@ -1,8 +1,18 @@
+--[[
+                  .___             
+  ____   ____   __| _/____   ______
+ /    \ /  _ \ / __ |/ __ \ /  ___/
+|   |  (  <_> ) /_/ \  ___/ \___ \ 
+|___|  /\____/\____ |\___  >____  >
+     \/            \/    \/     \/ 
 
--- oque são nodes 
- --sao cubos ou qualquer coisa que ocupe o espaço de um cubo no minetst
+    Estudo sobre os blocos e suas variações e atributos
+    curiosidade: foi o primeiro aquivo a ser feito
+]]--
+
+-- oque são nodes --> cubos ou qualquer coisa que ocupe o espaço de um cubo no minetest
+
 --luz e bug
-
 --bloco normais
 minetest.register_node("tutorialmod:placademetal", {
     description = "placa de metal",
@@ -58,9 +68,6 @@ minetest.register_node("tutorialmod:teto", {
     groups = {cracky=3}
 })
 
-
-
-
 --GRUPOS
 -- crumbly
     --terra, areia
@@ -82,7 +89,7 @@ minetest.register_node("tutorialmod:vidro", {
     description = "vidro",
     drawtype="glasslike",
     tiles = {"tutorialmod_vidro.png"},
-    paramtype = "light",
+    paramtype = "light",--Alguns blocos ficam escuros por motivos desconhecidos adicionar esse paramtype resolve
     sunlight_propagates = true,
 
     groups = {cracky=3}
